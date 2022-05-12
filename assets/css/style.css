@@ -663,6 +663,26 @@ input[type="checkbox"]:checked:before {
   transform: translate(-50%, -50%);
 }
 
+.layout-list .tank_item.green {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%,#059512 0,#59d52d 90%);
+}
+
+.green .badge {
+  background-image: url(../images/badge/green.png);
+}
+
+.red .badge {
+  background-image: url(../images/badge/red.png);
+}
+
+.tank_item.red {
+  background: radial-gradient(87.82% 68.31% at 50% 50%,#f25d30 0,#a71414 70.51%);
+}
+
+.tank_item.blue {
+  background: radial-gradient(87.82% 68.31% at 50% 50%,#0ff 0,#0e75ce 70.51%);
+}
+
 /* content container */
 
 /* start footer  */
